@@ -184,4 +184,4 @@ The technique solves all the problems outlined above:
 
 * Hard deleting old records for regularly requirements gets really, really easy: `DELETE FROM deleted_record WHERE deleted_at < now() - '1 year'::interval`.
 
-Deleted data is a little harder to get at, but no my much, and is still kept around in case someone needs to look at it.
+Deleted data is a little harder to get at, but not by much, and is still kept around in case someone needs to look at it.
